@@ -1,4 +1,4 @@
-/*
+﻿/*
 Copyright (C) 2013 Hélio Dolores (heliodolores[at]gmail.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
@@ -1099,5 +1099,5 @@ var Utils;
 // process.env.PORT
 // process.env.IP
 // RED HAT OPEN SHIFT CONFIGURATION
-var myserver = new Chat.ChatServer(process.env.OPENSHIFT_NODEJS_PORT, false, "https://novabasedigital-dev.outsystemscloud.com", process.env.OPENSHIFT_NODEJS_IP, false, "_*outsystemschatkey*_", "aspx");
+var myserver = new Chat.ChatServer(process.env.OPENSHIFT_NODEJS_PORT, false, "novabasedigital-dev.outsystemscloud.com", process.env.OPENSHIFT_NODEJS_IP, false, "_*outsystemschatkey*_", "aspx");
 //# sourceMappingURL=server.js.map
